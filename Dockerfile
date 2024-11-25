@@ -5,7 +5,7 @@
 # For reference:
 # - https://docs.docker.com/build/dockerfile/frontend/#stable-channel
 
-ARG BASE_IMAGE=ubuntu:22.04
+ARG BASE_IMAGE=ubuntu:24.10
 ARG PYTHON_VERSION=3.11
 
 FROM ${BASE_IMAGE} as dev-base
